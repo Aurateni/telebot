@@ -1,1 +1,1 @@
-web: gunicorn tebot.py
+worker: python tebot.py $PORT
