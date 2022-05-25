@@ -1,1 +1,1 @@
-worker: python tebot.py
+web: gunicorn tebot.py
